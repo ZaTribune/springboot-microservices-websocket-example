@@ -1,4 +1,4 @@
-# Picture Publishing Service  
+# Microservices & Websocket  
   
 An Example of a microservices web application that utilizes websocket as means of communication.
 
@@ -9,7 +9,9 @@ An Example of a microservices web application that utilizes websocket as means o
   
 ## Overview  
 The main idea for this project is to simulate a microservices environment where
- a microservice accepts a websocket request then forwards that request to another microservice.  
+ a microservice accepts a websocket request then forwards that request to some destination meanwhile 
+ processing that request with another microservice. In short words, there's an open websocket communication
+ between the client & destination through microservices.    
 
 ## Detailed Requirements  
 - An end user client that initiates a websocket request.  
@@ -20,19 +22,6 @@ The main idea for this project is to simulate a microservices environment where
  that also accepts websocket request and responds with a websocket response going all the way back
   to the client. 
 
-## Nonfunctional Requirements  
-- the backend database should be an open source standard SQL variety of PostgreSQL  
-- must provide scripts for deployment and running unit tests  
-
-## Expected Deliverables  
-- the entire project: code and database  
-- instructions on how to deploy it  
-- REST API documentation (Swagger preferred but anything clear is fine)
-
-## Steps to deploy
-- Just load this project on your preferred IDE e.g. Intellij or Netbeans ...etc and Maven will load all dependencies
-  and configure directories.  
-- This project uses an embedded "h2 database" so there's no need for a dbms e.g. MySQL or Postgres ...etc  
 
 ## Authors  
    **Muhammad Ali** - find me on : [LinkedIn](https://www.linkedin.com/in/zatribune).    
