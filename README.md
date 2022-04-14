@@ -1,6 +1,6 @@
-# Microservices & Websocket  
+# springboot-microservices-websocket-example [in progress]
   
-An Example of a microservices web application that utilizes websocket as means of communication.
+An Example of a microservices web application that utilizes websocket as means of communication.  
 
 <p align="center">
   <img src="spring.svg" width="200" height="200"/>
@@ -24,4 +24,4 @@ The main idea for this project is to simulate a microservices environment where
 
 
 ## Authors  
-   **Muhammad Ali** - find me on : [LinkedIn](https://www.linkedin.com/in/zatribune).    
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&label=Muhammad%20Ali)](https://linkedin.com/in/zatribune)
